@@ -19,6 +19,9 @@ export function MainLayout({ children, title, subtitle, userName }: MainLayoutPr
           {children}
         </main>
       </div>
+      <footer className="py-4 px-6 text-center text-sm text-muted-foreground border-t">
+        © 2026 Srinidhi - All rights reserved.
+      </footer>
     </div>
   );
 }

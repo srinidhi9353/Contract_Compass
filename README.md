@@ -90,6 +90,10 @@ The application includes unit tests for critical components and functionality:
 
 Run tests with: `npm run test`
 
+## Copyright
+
+© 2026 Srinidhi - All rights reserved.
+
 ## Features
 
 - Contract management dashboard

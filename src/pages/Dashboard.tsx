@@ -47,12 +47,11 @@ export default function Dashboard({ userName }: DashboardProps = {}) {
     <MainLayout title="Dashboard" subtitle={`Welcome back, ${displayName}! Here's an overview of your contracts.`}>
       {/* Logo and Tagline Section with Cover Photo */}
       <div className="mb-8 relative rounded-xl overflow-hidden border border-border">
-        <div className="w-full h-48 overflow-hidden">
+        <div className="w-full h-48 flex items-center justify-center bg-white p-4">
           <img 
             src="/logo.png" 
             alt="Contract Compass Cover" 
-            className="w-full h-10 object-cover"
-            style={{ objectPosition: 'center 5%' }}
+            className="max-w-full max-h-full object-contain"
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/30" />

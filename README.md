@@ -94,19 +94,15 @@ Run tests with: `npm run test`
 
 This application is configured for deployment to GitHub Pages:
 
-1. The repository includes a GitHub Actions workflow (.github/workflows/gh-pages.yml) that automatically builds and deploys the app when changes are pushed to the main branch
+1. The repository includes a GitHub Actions workflow (`.github/workflows/gh-pages.yml`) that automatically builds and deploys the app when changes are pushed to the main branch
 2. The Vite configuration is set up with the proper base path for GitHub Pages
+3. To enable GitHub Pages deployment:
+   - Go to your repository Settings > Pages
+   - Select "GitHub Actions" as the source
 
 ## Copyright
 
 © 2026 Srinidhi - All rights reserved.
-
-## Features
-
-- Contract management dashboard
-- Blueprint editor for contract templates
-- Responsive design for all devices
-- Modern UI with dark/light mode support
 
 ## Technologies Used
 
